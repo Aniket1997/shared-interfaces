@@ -1,4 +1,5 @@
-export type Theme = "dark" | "light"
+import {ThemeEnum} from '../constants/themeConstant'
+export type Theme = ThemeEnum;
 
 export interface ThemeProviderProps {
     children: React.ReactNode
