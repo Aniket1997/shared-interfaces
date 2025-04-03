@@ -1,12 +1,12 @@
 {
     "compilerOptions": {
       "outDir": "./dist",
-      "rootDir": "./src",
+      "rootDir": "./",
       "strict": true,
       "moduleResolution": "node",
       "esModuleInterop": true,
       "declaration": true
     },
-    "include": ["src"]
+    "include": ["src", "interface"]
   }
   
